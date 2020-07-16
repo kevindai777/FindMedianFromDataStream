@@ -18,7 +18,7 @@ class Median {
             if (num > this.arr[mid]) {
                 low = mid + 1
             } else {
-                high = low - 1
+                high = mid - 1
             }
         }
 
